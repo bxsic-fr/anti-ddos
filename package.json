@@ -1,0 +1,26 @@
+{
+  "//1": "describes your app and its dependencies",
+  "name": "ddosprotect",
+  "version": "0.0.1",
+  "description": "A simple anti ddos script for your network infrastructures.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/ddosprotect"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
