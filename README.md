@@ -6,7 +6,7 @@ Use the "antiddos" function like this :
 
 ```
 const ddosprotect = require("ddosprotect");
-app.use(function (req, res) => {
+app.use(function (req, res) {
   ddosprotect.antiddos(req, res, interval, maxrequests); 
   // interval: interval of requests refreshing in miliseconds | maxrequests: max requests accepted into the time interval.
 });
